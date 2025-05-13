@@ -36,9 +36,8 @@ except FileNotFoundError:
 except Exception as e:
     print(" Error loading dataset:", e)
 
-# ================================
-# Task 2: Basic Data Analysis
-# ================================
+
+# 2: 
 
 print("\n Basic Statistics:\n", df.describe())
 
